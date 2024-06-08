@@ -17,7 +17,7 @@ async function getGroqChatCompletion(prop) {
       {
         role: "system",
         content:
-          "You're an English teacher. Just check the sentences and provide the right one",
+          "You're an English teacher. Just check the sentences and provide the right one then explain",
       },
       {
         role: "user",
