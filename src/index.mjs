@@ -66,7 +66,7 @@ export const handler = async (event) => {
     };
   } else {
     return {
-      statusCode: 200,
+      statusCode: 404,
       body: JSON.stringify(event.body),
     };
   }
